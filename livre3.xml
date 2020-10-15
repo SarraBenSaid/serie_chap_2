@@ -2,8 +2,8 @@
 <A:livre xmlns:A="http://www.masociete.com">
     <A:titre>Classificateur des documents
 et extracteur des données</A:titre>
-    <A:auteur><A:nom>Ben Said</A:nom><A:prénom>Sarra</A:prénom> </A:auteur>
-    <A:auteur><A:nom>Ben Said</A:nom><A:prénom>Asma</A:prénom></A:auteur>
+    <A:auteur><A:nom>Ben Said</A:nom><A:prenom>Sarra</A:prenom> </A:auteur>
+    <A:auteur><A:nom>Ben Said</A:nom><A:prenom>Asma</A:prenom></A:auteur>
 
     <A:section>
         <A:titre>Etat de l’art</A:titre>
@@ -41,11 +41,11 @@ Le but est que le modèle va devoir détecter les similarités dans les données
 qu’il reçoit et les organiser en fonction de ces dernières par lui même.</A:p>
         </A:chapiter>
     </A:section>
-    <A:section xmlns="http://www.monentreprise.com">
-        <A:titre>Deep Learning</A:titre>
-        <A:chapiter>
-            <A:titre>Fonctionnemet de deep learning</A:titre>
-            <A:p>Le deep learning apprend en quelque sortes à représenter le monde qui nous
+    <B:section xmlns:B="http://www.monentreprise.com">
+        <B:titre>Deep Learning</B:titre>
+        <B:chapiter>
+            <B:titre>Fonctionnemet de deep learning</B:titre>
+            <B:p>Le deep learning apprend en quelque sortes à représenter le monde qui nous
 entoure, soit la façon dont l’ordinateur va exprimer la parole ou l’image.
 Pour faire passer une image à un model deep learning, il faut tout dabord
 manuellement au programme informatique comment transformer une image afin
@@ -54,22 +54,22 @@ Et il le fait beaucoup mieux que les concepteurs des programmes informatiques.
 Pour qu’un programme informatique apprenne à reconnaître un animal comme
 un chien, on lui fournit des dizaines de milliers d’images de chiens, labélisées. Cet
 entraînement peut nécessiter des heures, voire des jours. Une fois entraîné, il peut
-reconnaître des chiens dans de nouvelles images</A:p>
-            <A:p>Le Deep Learning utilise l’apprentissage supervisé, mais c’est l’architecture
+reconnaître des chiens dans de nouvelles images</B:p>
+            <B:p>Le Deep Learning utilise l’apprentissage supervisé, mais c’est l’architecture
 interne de l’ordinateur qui est différente : il s’agit d’un réseau de neurones. En
 quelque sorte, un ordinateur virtuel composé de milliers d’unités (les neurones)
 qui chacune effectue de petits calculs très simples. L’originalité de tout ceci, c’est
 que les résultats de la première couche de neurones vont servir d’entrée au calcul
 des suivantes. Ce fonctionnement par « couches » rend ce type d’apprentissage «
-profond ».</A:p>
-        </A:chapiter>
-        <A:chapiter>
-            <A:titre>Les différents type de model</A:titre>
-            <A:p>Réseaux de neurones convolutifs :
+profond ».</B:p>
+        </B:chapiter>
+        <B:chapiter>
+            <B:titre>Les différents type de model</B:titre>
+            <B:p>Réseaux de neurones convolutifs :
 Les réseaux de neurones convolutifs sont directement inspirés du cortex visuel
 des vertébrés. Un réseau de neurones à convolution, appelé aussi convnet (pour
 «Convolutional Network»), ou encore CNN (pour «Convolutional Neural Network») . On distingue deux parties, une première partie que l’on appelle la partie
-convolutive du modèle et la seconde partie, que l’on va appeler la partie classification du modèle qui correspond à un modèle MLP (Multi Layers Perceptron).</A:p>
+convolutive du modèle et la seconde partie, que l’on va appeler la partie classification du modèle qui correspond à un modèle MLP (Multi Layers Perceptron).</B:p>
             <p>Réseaux de neurones réccurents : 
 Les humains ne commencent pas leur pensées à zéro à chaque seconde. Lorsqu’on lit un livre, on comprend chaque mot en fonction de la compréhension des
 mots précédents. On n’oublie pas tout et recommençons à réfléchir à nouveau. Nos
@@ -79,7 +79,7 @@ sait pas très bien comment un réseau de neurones traditionnels pourrait utilis
 son raisonnement sur les événements précédents dans le film pour en informer les
 derniers. RNN (les réseaux de neurones récurrents) traitent ce problème. Ce sont
 des réseaux avec des boucles, permettant aux informations de persister.</p>
-        </A:chapiter>
+        </B:chapiter>
 
-    </A:section>
+    </B:section>
 </A:livre>
