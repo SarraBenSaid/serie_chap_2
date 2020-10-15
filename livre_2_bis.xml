@@ -2,11 +2,11 @@
 <livre  titre="Classificateur des documents
 et extracteur des données">
    
-    <auteur nom="Ben Said"   prénom="Sarra"/>
+    <auteur nom="Ben Said"   prenom="Sarra"/>
         
       
 
-    <auteur nom="Ben Said"   prénom="Asma"/>
+    <auteur nom="Ben Said"   prenom="Asma"/>
 
     <section titre="Etat de l’art">
         <chapiter titre="Qu’est ce que le machine learning">

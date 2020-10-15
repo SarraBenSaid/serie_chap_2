@@ -2,8 +2,8 @@
 <livre>
     <titre>Classificateur des documents
 et extracteur des données</titre>
-    <auteur><nom>Ben Said</nom><prénom>Sarra</prénom> </auteur>
-    <auteur><nom>Ben Said</nom><prénom>Asma</prénom></auteur>
+    <auteur><nom>Ben Said</nom><prenom>Sarra</prenom> </auteur>
+    <auteur><nom>Ben Said</nom><prenom>Asma</prenom></auteur>
 
     <section>
         <titre>Etat de l’art</titre>
