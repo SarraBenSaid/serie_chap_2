@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<contact titre="..." techno="..." xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+xsd:noNamespaceSchemaLocation="annuaire.xsd">
+    <nom>...</nom>
+    <prenom>...</prenom>
+    <telephone> ...</telephone> 
+    <email>...</email>
+    <email>...</email>
+
+</contact>
