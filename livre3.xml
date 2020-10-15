@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<A:livre xmlns:A="http://www.masociete.com">
+    <A:titre>Classificateur des documents
+et extracteur des données</A:titre>
+    <A:auteur><A:nom>Ben Said</A:nom><A:prénom>Sarra</A:prénom> </A:auteur>
+    <A:auteur><A:nom>Ben Said</A:nom><A:prénom>Asma</A:prénom></A:auteur>
+
+    <A:section>
+        <A:titre>Etat de l’art</A:titre>
+        <A:chapiter>
+            <A:title>Qu’est ce que le machine learning</A:title>
+            <A:p>Le machine learning (ML) est un moyen de mettre en œuvre l’intelligence
+artificielle. C’est une technique de programmation informatique qui utilise des
+probabilités statistiques pour donner aux ordinateurs la capacité d’apprendre par
+eux-mêmes sans programmation explicite.</A:p>
+            <A:p>L’objectif du ML est de reconnaître parmi des données des structures souvent
+trop difficiles à détecter ou à mesurer manuellement. À partir de ces structures,
+on peut chercher à classifier des individus, des objets, à prédire la valeur d’une
+variable à un certain horizon, à expliquer l’apparition ou non d’une caractéristique.</A:p>
+        </A:chapiter>
+        <A:chapiter>
+            <A:titre>Les différents type de machine learning</A:titre>
+            <A:p>Apprentissage supervisée : 
+L’apprentissage est dit supervisée lorsque les données qui entrent dans le processus sont déjà catégorisées et que les algorithmes doivent s’en servir pour prédire
+un résultat en vue de pouvoir le faire plus tard lorsque les données ne seront plus
+catégorisées.
+C’est ce qu’on appelle l’apprentissage supervisé, car le processus d’un algorithme tiré de l’ensemble de données de formation (training set) peut être considéré comme un enseignant supervisant le processus d’apprentissage. Nous connaissons les réponses correctes, l’algorithme effectue des prédictions itératives sur les
+données d’apprentissage et est corrigé par l’enseignant. L’apprentissage s’arrête
+lorsque l’algorithme atteint un niveau de performance acceptable
+Dans ce cas, deux étapes sont nécessaires pour compléter le processus, à commencer par le stade d’apprentissage qui consiste à la modélisation des données
+cataloguées. Ensuite, il s’agira au second stade de se baser sur les données ainsi
+définies pour attribuer des classes aux nouveaux modèles introduits dans le système, afin de les cataloguer eux aussi.
+On peut par exemple donner au système une liste de profils clients contenant
+des habitudes d’achat, et expliquer à l’algorithme lesquels sont des clients habituels et lesquels sont des clients occasionnels. Une fois l’apprentissage terminé,
+l’algorithme devra pouvoir déterminer tout seul à partir d’un profil client à quelle
+catégorie celui-ci appartient.</A:p>
+            <A:p> Apprentissage non supervisée : 
+L’apprentissage est dit non supervisée lorsque les données ne sont ni étiquetées,
+ni classées.
+Le but est que le modèle va devoir détecter les similarités dans les données
+qu’il reçoit et les organiser en fonction de ces dernières par lui même.</A:p>
+        </A:chapiter>
+    </A:section>
+    <A:section xmlns="http://www.monentreprise.com">
+        <A:titre>Deep Learning</A:titre>
+        <A:chapiter>
+            <A:titre>Fonctionnemet de deep learning</A:titre>
+            <A:p>Le deep learning apprend en quelque sortes à représenter le monde qui nous
+entoure, soit la façon dont l’ordinateur va exprimer la parole ou l’image.
+Pour faire passer une image à un model deep learning, il faut tout dabord
+manuellement au programme informatique comment transformer une image afin
+de la classifier. Avec le « Deep Learning », l’ordinateur apprend à le faire lui-même.
+Et il le fait beaucoup mieux que les concepteurs des programmes informatiques.
+Pour qu’un programme informatique apprenne à reconnaître un animal comme
+un chien, on lui fournit des dizaines de milliers d’images de chiens, labélisées. Cet
+entraînement peut nécessiter des heures, voire des jours. Une fois entraîné, il peut
+reconnaître des chiens dans de nouvelles images</A:p>
+            <A:p>Le Deep Learning utilise l’apprentissage supervisé, mais c’est l’architecture
+interne de l’ordinateur qui est différente : il s’agit d’un réseau de neurones. En
+quelque sorte, un ordinateur virtuel composé de milliers d’unités (les neurones)
+qui chacune effectue de petits calculs très simples. L’originalité de tout ceci, c’est
+que les résultats de la première couche de neurones vont servir d’entrée au calcul
+des suivantes. Ce fonctionnement par « couches » rend ce type d’apprentissage «
+profond ».</A:p>
+        </A:chapiter>
+        <A:chapiter>
+            <A:titre>Les différents type de model</A:titre>
+            <A:p>Réseaux de neurones convolutifs :
+Les réseaux de neurones convolutifs sont directement inspirés du cortex visuel
+des vertébrés. Un réseau de neurones à convolution, appelé aussi convnet (pour
+«Convolutional Network»), ou encore CNN (pour «Convolutional Neural Network») . On distingue deux parties, une première partie que l’on appelle la partie
+convolutive du modèle et la seconde partie, que l’on va appeler la partie classification du modèle qui correspond à un modèle MLP (Multi Layers Perceptron).</A:p>
+            <p>Réseaux de neurones réccurents : 
+Les humains ne commencent pas leur pensées à zéro à chaque seconde. Lorsqu’on lit un livre, on comprend chaque mot en fonction de la compréhension des
+mots précédents. On n’oublie pas tout et recommençons à réfléchir à nouveau. Nos
+pensées ont une persistance. Les réseaux de neurones traditionnels ne peuvent pas
+le faire, et cela est un inconvénient majeur. Par exemple, imaginons qu’on souhaite classer quel genre d’événement se produit à chaque étape du film. On ne
+sait pas très bien comment un réseau de neurones traditionnels pourrait utiliser
+son raisonnement sur les événements précédents dans le film pour en informer les
+derniers. RNN (les réseaux de neurones récurrents) traitent ce problème. Ce sont
+des réseaux avec des boucles, permettant aux informations de persister.</p>
+        </A:chapiter>
+
+    </A:section>
+</A:livre>
